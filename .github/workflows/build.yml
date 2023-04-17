@@ -38,4 +38,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_LOGIN }}/pods-slave:latest
+          tags: clowzed/pods-slave:latest
