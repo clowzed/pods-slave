@@ -1,5 +1,5 @@
 # pods slave node
-This is part of [pods](https://github.com/clowzed/tellme-client) project
+This is part of [pods](https://github.com/clowzed/pods-master) project
 
 ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/clowzed/pods-slave?color=u&label=docker%20image%20size)     ![GitHub](https://img.shields.io/github/license/clowzed/pods-slave?color=g)
 [![build](https://github.com/clowzed/pods-slave/actions/workflows/build.yml/badge.svg)](https://github.com/clowzed/pods-slave/actions/workflows/build.yml)
