@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  server:
+    image: clowzed/pods-slave:latest
+    build: .
+    environment:
+      - PORT=8081
+      - UPLOAD_FOLDER=./uploaded_episodes
+      - SERVICE_REGISTRY=
+      - ACCESS_TOKEN=

@@ -1,0 +1,20 @@
+[package]
+name        = "pods-slave"
+version     = "1.0.0"
+edition     = "2021"
+description = "Slave server for pods project"
+author      = "clowzed <clowzed.work@gmail.com>"
+
+
+[dependencies]
+actix-files = "0.6.2"
+actix-web = "4.3.1"
+anyhow = "1.0.70"
+dotenv = "0.15.0"
+env_logger = "0.10.0"
+futures = "0.3.26"
+futures-util = "0.3.27"
+reqwest = { version = "0.11.16", features = ["stream"] }
+serde = { version = "1.0.152", features = ["derive"] }
+tellme-client = "0.1.7"
+url = "2.3.1"
